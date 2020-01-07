@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Bullwark 0.1</title>
+        <link rel='stylesheet' type='text/css' href='menu.css'>
+        <script src="menu.js" type="text/javascript"></script>
+        <script src="target.js" type="text/javascript"></script>
+    </head>
+    
+            <div id='header'>
+                    <div class="container" id="menu" onclick="openNav();" style="text-align:left;float:left;">
+                      <div class="bar1"></div>
+                      <div class="bar2"></div>
+                      <div class="bar3"></div>
+                    </div>
+                    <canvas style='float:right;' id='circle' width=35 height=39></canvas>
+                    <div class='id' id='acc' style='float:right;padding-top:12px;padding-right:4px;'>Name</div><br>
+            
+                </div>
+        <h1>Targets</h1>
+        <button onclick="document.getElementById('inputButton').style.display='block'" value='+ Add Target'>+ Add Target</button>
+        <br><div class="container" id="inputButton" style="display:none;">
+          <h1>Add Target</h1>
+          <p>Please fill the values</p>
+          <hr>
+          <label for="ip"><b>IP</b></label>
+          <input id = "ip" type="text" placeholder="" name="ip" required>
+    
+          <label for="dns"><b>Domain Name</b></label>
+          <input id = "dns" type="domain" placeholder="" name="dns"><br>
+          <button onclick="document.getElementById('inputButton').style.display='none'">Cancel</button>
+          <button onclick="addTarget()">Add Target</button>
+        </div>
+        <br><br><br>
+        <body onload="update()" id="add">
+        </body>
+
+        <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+              <div class="container" id="menu2" onclick="closeNav();" style="text-align:left;float:left;">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              
+              <!-- Overlay content -->
+              <div class="overlay-content">
+                <a href="home.html">Home</a>
+                <a href="targets.html">Targets</a>
+                <a href="upload.html">Upload</a>
+                <a href="analysis.html">Analysis</a>
+                <a href="down.html">Download</a>
+              </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById('inputButton');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+      <script>accLoad();</script>
+
+</html>
