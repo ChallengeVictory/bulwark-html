@@ -19,11 +19,16 @@
       <body onload="accLoad()">
 
         <h1>Uploads</h1>
-        Upload nmap scans<br><br>
-        <input type=file><br>
+        Upload nmap scans to create a database.<br><br>
+        <form enctype="multipart/form-data" action="/fileupload" method="post">
+          <input id="scan" name='scan' type="file" />
+          <input id='submit' type="Submit" value="Upload">
+      </form><br>
 
-
-
+      <footer>
+        <strong>bottom text</strong>
+      </footer>
+      
       </body>
 
       <div id="myNav" class="overlay">

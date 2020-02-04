@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Thu Jan  9 19:19:02 2020 as: nmap -sS -oX example -p 22 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sS -oX example -p 22 192.168.1.0/24" start="1578615542" startstr="Thu Jan  9 19:19:02 2020" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="22"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<address addr="B0:39:56:79:01:D5" addrtype="mac" vendor="Netgear"/>
+<hostnames>
+<hostname name="_gateway" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="9450" rttvar="9675" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.2" addrtype="ipv4"/>
+<address addr="00:17:88:25:CB:98" addrtype="mac" vendor="Philips Lighting BV"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="8019" rttvar="6343" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.3" addrtype="ipv4"/>
+<address addr="D0:03:4B:52:99:6F" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="10238" rttvar="7220" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.4" addrtype="ipv4"/>
+<address addr="00:26:EC:04:E7:C9" addrtype="mac" vendor="Legrand Home Systems"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="124219" rttvar="120107" to="604647"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.5" addrtype="ipv4"/>
+<address addr="B0:F1:EC:A6:71:9D" addrtype="mac" vendor="Ampak Technology"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="480288" rttvar="523349" to="2573684"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.7" addrtype="ipv4"/>
+<address addr="40:9F:38:27:9F:F7" addrtype="mac" vendor="AzureWave Technology"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="120802" rttvar="117606" to="591226"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.8" addrtype="ipv4"/>
+<address addr="D4:81:CA:5E:F5:68" addrtype="mac" vendor="iDevices"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="128"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="126506" rttvar="124676" to="625210"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.10" addrtype="ipv4"/>
+<address addr="00:26:EC:04:F7:11" addrtype="mac" vendor="Legrand Home Systems"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="130898" rttvar="127202" to="639706"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.11" addrtype="ipv4"/>
+<address addr="3C:8D:20:E5:85:4B" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="35719" rttvar="50716" to="238583"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.12" addrtype="ipv4"/>
+<address addr="D4:81:CA:5E:F2:58" addrtype="mac" vendor="iDevices"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="128"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="226376" rttvar="218609" to="1100812"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.13" addrtype="ipv4"/>
+<address addr="00:26:EC:04:EA:BA" addrtype="mac" vendor="Legrand Home Systems"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="154054" rttvar="144224" to="730950"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.14" addrtype="ipv4"/>
+<address addr="A0:40:A0:50:A0:8B" addrtype="mac" vendor="Netgear"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="3217" rttvar="4044" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.15" addrtype="ipv4"/>
+<address addr="3C:2E:FF:75:79:B7" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="41172" rttvar="61370" to="286652"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.16" addrtype="ipv4"/>
+<address addr="A0:40:A0:62:02:50" addrtype="mac" vendor="Netgear"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="8435" rttvar="5797" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.17" addrtype="ipv4"/>
+<address addr="DC:56:E7:56:E1:CE" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="19977" rttvar="24145" to="116557"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.18" addrtype="ipv4"/>
+<address addr="90:E1:7B:0D:9B:BE" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="67581" rttvar="84009" to="403617"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.19" addrtype="ipv4"/>
+<address addr="C8:DB:26:02:29:6C" addrtype="mac" vendor="Logitech"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="593962" rttvar="586048" to="2938154"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.21" addrtype="ipv4"/>
+<address addr="30:57:14:1A:87:57" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="41309" rttvar="61672" to="287997"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.22" addrtype="ipv4"/>
+<address addr="1C:F2:9A:2D:4E:C0" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="43090" rttvar="65254" to="304106"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.23" addrtype="ipv4"/>
+<address addr="60:F8:1D:AA:FD:68" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="688334" rttvar="752821" to="3699618"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.24" addrtype="ipv4"/>
+<address addr="9C:AE:D3:81:0B:60" addrtype="mac" vendor="Seiko Epson"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="159158" rttvar="170405" to="840778"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.25" addrtype="ipv4"/>
+<address addr="98:01:A7:B4:C3:01" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="41090" rttvar="61276" to="286194"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.27" addrtype="ipv4"/>
+<address addr="00:90:A9:EB:6A:D9" addrtype="mac" vendor="Western Digital"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="12300" rttvar="12009" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.31" addrtype="ipv4"/>
+<address addr="00:D8:61:14:AF:67" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="9110" rttvar="9110" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615591"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.32" addrtype="ipv4"/>
+<address addr="38:53:9C:0A:1A:82" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="32884" rttvar="32884" to="164420"/>
+</host>
+<host starttime="1578615542" endtime="1578615599"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.36" addrtype="ipv4"/>
+<address addr="74:DA:38:62:66:B9" addrtype="mac" vendor="Edimax Technology"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="927016" rttvar="927016" to="4635080"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.38" addrtype="ipv4"/>
+<address addr="90:8D:6C:04:BF:26" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="275057" rttvar="240424" to="1236753"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.39" addrtype="ipv4"/>
+<address addr="A4:5E:60:D4:FC:81" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="268891" rttvar="252471" to="1278775"/>
+</host>
+<host starttime="1578615542" endtime="1578615591"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.44" addrtype="ipv4"/>
+<address addr="50:32:37:A0:93:C2" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="135845" rttvar="121357" to="621273"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.46" addrtype="ipv4"/>
+<address addr="6C:C3:74:DC:06:AE" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="1044304" rttvar="1100631" to="5446828"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.47" addrtype="ipv4"/>
+<address addr="60:5B:B4:CA:22:45" addrtype="mac" vendor="AzureWave Technology"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="46800" rttvar="50521" to="248884"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.48" addrtype="ipv4"/>
+<address addr="B8:27:EB:22:66:C6" addrtype="mac" vendor="Raspberry Pi Foundation"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="337270" rttvar="370357" to="1818698"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.49" addrtype="ipv4"/>
+<address addr="74:C6:3B:29:E7:5C" addrtype="mac" vendor="AzureWave Technology"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="758690" rttvar="823436" to="4052434"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.52" addrtype="ipv4"/>
+<address addr="20:DF:B9:CF:C4:FB" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="9353" rttvar="11793" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.53" addrtype="ipv4"/>
+<address addr="B8:27:EB:21:59:6B" addrtype="mac" vendor="Raspberry Pi Foundation"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="33436" rttvar="36591" to="179800"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.62" addrtype="ipv4"/>
+<address addr="54:2B:8D:BB:C9:43" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="126342" rttvar="132331" to="655666"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.63" addrtype="ipv4"/>
+<address addr="98:46:0A:10:F6:4E" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="10531" rttvar="12409" to="100000"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.65" addrtype="ipv4"/>
+<address addr="00:26:EC:04:EC:73" addrtype="mac" vendor="Legrand Home Systems"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="255"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="58066" rttvar="55025" to="278166"/>
+</host>
+<host starttime="1578615542" endtime="1578615590"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.68" addrtype="ipv4"/>
+<address addr="54:62:E2:B3:06:81" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="229391" rttvar="161942" to="877159"/>
+</host>
+<host starttime="1578615542" endtime="1578615589"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.101" addrtype="ipv4"/>
+<address addr="9C:AD:EF:64:41:88" addrtype="mac" vendor="Obihai Technology"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="9802" rttvar="10275" to="100000"/>
+</host>
+<host starttime="1578615599" endtime="1578615599"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.1.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pop-os" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="31" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1578615599" timestr="Thu Jan  9 19:19:59 2020" elapsed="57.28" summary="Nmap done at Thu Jan  9 19:19:59 2020; 256 IP addresses (41 hosts up) scanned in 57.28 seconds" exit="success"/><hosts up="41" down="215" total="256"/>
+</runstats>
+</nmaprun>

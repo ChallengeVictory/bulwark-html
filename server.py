@@ -2,6 +2,10 @@ import bottle
 import data
 import sys
 import json
+import os
+import scan
+
+
 
 @bottle.route('')
 def home():
@@ -24,6 +28,25 @@ def datareturn():
 def dataupdate():
     tmp = json.loads(bottle.request.body.read().decode())
     return data.update(tmp)
+
+scancount=0
+@bottle.post('/fileupload')
+def fileup():
+    global scancount
+    upload = bottle.request.files.get('scan')
+    name, ext = os.path.splitext(upload.filename)
+
+    if ext != '.xml':
+        return "Please upload an XML nmap scan"
+
+    else:
+        path = "scans"
+        if not os.path.exists(path):
+            os.makedirs(path)
+        file_path = "{path}/{file}".format(path=path, file='scan'+str(scancount)+'.xml')
+        upload.save(file_path)
+        scancount+=1
+        scan.scan(file_path,{'target':False,'scan':True})
 
 if "--h" in sys.argv:
     out = """Bullwark is a cybersecurity collaboration tool developed by Sean "brad" Manly for the UB NetDef Club and personal use. 
