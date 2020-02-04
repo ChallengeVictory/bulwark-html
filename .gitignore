@@ -5,3 +5,4 @@ scanAgg.db
 targets.db
 .vscode
 __pycache__
+.gitignore
