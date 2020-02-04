@@ -1,2 +1,7 @@
 .autogit
 gitPAT
+scans
+scanAgg.db
+targets.db
+.vscode
+__pycache__
